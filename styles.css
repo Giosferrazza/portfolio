@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #696868;
+    background-color: black;
+    color: green;
 }
 
 .navbar {
@@ -14,12 +15,12 @@ body {
     overflow: hidden;
 }
 
-.navbar-list {
+.navbar-list { 
     list-style-type: none;
     margin: 0;
     padding-bottom: 0px;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,12 +29,12 @@ body {
 
 li {
     float: left;
-    border-right: 1px solid #bbb;
+    border: 1px solid green;
 }
 
 li a {
     display: block;
-    color: white;
+    color: green;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
